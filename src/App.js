@@ -55,7 +55,7 @@ try {
     //   console.log(devices);
     // });
     const socketsParams = {
-      entityId: "f5564590-6ce0-11ee-b4ac-570318c78832",
+      entityId: "",
       cmdId: 10 //websocket id
     };
     let keys = await client.subscribe(socketsParams, function (data) {
