@@ -4,9 +4,9 @@ import tbClient from "thingsboard-js-sdk";
 import { useState } from "react";
 
 const client = new tbClient({
-  host: "thingsboard.cloud",
-  username: "gowthampractise@gmail.com",
-  password: "Entlogics@0112"
+  host: "",
+  username: "",
+  password: ""
 });
 function firstDayOfWeek(dateObject, firstDayOfWeekIndex) {
   const dayOfWeek = dateObject.getDay(),
