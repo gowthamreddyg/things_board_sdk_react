@@ -23,8 +23,8 @@ function firstDayOfWeek(dateObject, firstDayOfWeekIndex) {
 }
 const now = firstDayOfWeek(new Date(), 1).getTime();
 const timeseries = {
-  entityId: "f5564590-6ce0-11ee-b4ac-570318c78832",
-  keys: ["energyConsumption", "cost"],
+  entityId: "",
+  keys: [""],
   limit: 500,
   interval: 600000,
   startTs: now,
